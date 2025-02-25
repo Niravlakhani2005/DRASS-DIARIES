@@ -152,13 +152,13 @@ function App() {
               >
                 <Slider {...sliderSettings}>
                   <div className="px-4">
-                    <img src="/src/assets/1.png" alt="Book mockup 1" className="w-full rounded-2xl shadow-2xl" />
+                    <img src="https://res.cloudinary.com/dqznmamxp/image/upload/v1740474585/1_zbos4e.png" alt="Book mockup 1" className="w-full rounded-2xl shadow-2xl" />
                   </div>
                   <div className="px-4">
-                    <img src="src/abc.png" alt="Book mockup 2" className="w-full rounded-2xl shadow-2xl" />
+                    <img src="https://res.cloudinary.com/dqznmamxp/image/upload/v1740474543/2_pnkpla.png" alt="Book mockup 2" className="w-full rounded-2xl shadow-2xl" />
                   </div>
                   <div className="px-4">
-                    <img src="/src/assets/3.png" alt="Book mockup 3" className="w-full rounded-2xl shadow-2xl" />
+                    <img src="https://res.cloudinary.com/dqznmamxp/image/upload/v1740474545/3_g7lkeh.png" alt="Book mockup 3" className="w-full rounded-2xl shadow-2xl" />
                   </div>
                 </Slider>
               </motion.div>
@@ -183,7 +183,7 @@ function App() {
               <div className="absolute inset-0 bg-accent/20 rounded-full blur-3xl" />
               <motion.img 
                 whileHover={{ scale: 1.05 }}
-                src="/src/assets/IMG_9602.png" 
+                src="https://res.cloudinary.com/dqznmamxp/image/upload/v1740474557/IMG_9602_qetw3h.png" 
                 alt="Author" 
                 className="relative rounded-full w-64 h-64 sm:w-96 sm:h-96 object-cover mx-auto border-4 border-accent/30 glow"
               />
