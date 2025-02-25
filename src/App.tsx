@@ -24,7 +24,7 @@ function App() {
   };
 
   const handleBuyNow = () => {
-    window.open('YOUR_GOOGLE_FORM_URL_HERE', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdaAmYdW3DBTMY8NZN5RESxZo2vvFSqg2_wqvayLxupQdUhMw/viewform?usp=dialog', '_blank');
   };
 
   const toggleMenu = () => {
@@ -132,14 +132,13 @@ function App() {
               <p className="text-lg sm:text-xl text-gray-400 leading-relaxed mb-8 sm:mb-12 text-justify">
                 Drass Diaries is a raw, evocative travel memoir that transports you to the heart of one of the coldest inhabited places on Earth. Blending breathtaking landscapes, shared laughter, and moments of deep introspection, this book captures the transformative power of adventure and the magic of manifestation. Follow a diverse group of explorers as they navigate frozen paths, embrace unexpected detours, and forge unbreakable bonds—all under the inspiring guidance of Raunaq Bhaiya. More than just a travelogue, 'Drass Diaries' invites you to experience the Himalayas, where dreams manifest into unforgettable journeys and every step echoes with the promise of possibility.
               </p>
-              <motion.button 
-                onClick={handleBuyNow}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-accent text-black px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg font-bold hover:bg-yellow-400 transition-colors duration-300 shadow-lg hover:shadow-xl"
-              >
-                <i className="bi bi-play-circle"></i> Watch Video Here
-              </motion.button>
+<motion.div
+                  whileHover={{ scale: 1.05 }}
+                  className="glass-effect p-4 rounded-xl"
+                >
+                  <p className="text-3xl sm:text-4xl font-bold gradient-text">For You, Raunak Bhaiya!</p>
+                
+                </motion.div>
               
             </motion.div>
             
@@ -211,23 +210,17 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
                   whileHover={{ scale: 1.05 }}
                   className="glass-effect p-4 rounded-xl"
                 >
-                  <p className="text-3xl sm:text-4xl font-bold gradient-text">2.8k+</p>
+                  <p className="text-3xl sm:text-4xl font-bold gradient-text">2800k+</p>
                   <p className="text-gray-400">YouTube Subscribers</p>
                 </motion.div>
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   className="glass-effect p-4 rounded-xl"
                 >
-                  <p className="text-3xl sm:text-4xl font-bold gradient-text">1.1M+</p>
+                  <p className="text-3xl sm:text-4xl font-bold gradient-text">1,062,183+</p>
                   <p className="text-gray-400">YouTube Views</p>
                 </motion.div>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="glass-effect p-4 rounded-xl"
-                >
-                  <p className="text-3xl sm:text-4xl font-bold gradient-text">200+</p>
-                  <p className="text-gray-400">Photographs</p>
-                </motion.div>
+                
               </div>
             </motion.div>
           </div>
@@ -295,7 +288,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
               </div>
               <h3 className="text-2xl sm:text-3xl font-bold mb-4">Physical Copy</h3>
               <p className="text-gray-400 mb-8">Experience the journey through traditional pages</p>
-              <p className="text-4xl sm:text-5xl font-bold gradient-text mb-8">₹789</p>
+              <p className="text-4xl sm:text-5xl font-bold gradient-text mb-8">₹689</p>
               <ul className="text-gray-300 space-y-4 mb-8 sm:mb-12">
                 <li className="flex items-center gap-3">
                   <svg className="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
@@ -316,14 +309,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
                   Hardcover edition
                 </li>
               </ul>
-              <motion.button 
-                onClick={handleBuyNow}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="w-full bg-accent text-black py-3 sm:py-4 rounded-xl font-bold hover:bg-yellow-400 transition-colors duration-300 shadow-lg hover:shadow-xl"
-              >
-                Get Physical Copy
-              </motion.button>
+             
             </motion.div>
             
             <motion.div
@@ -360,14 +346,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
                   Read anywhere
                 </li>
               </ul>
-              <motion.button 
-                onClick={handleBuyNow}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="w-full bg-accent text-black py-3 sm:py-4 rounded-xl font-bold hover:bg-yellow-400 transition-colors duration-300 shadow-lg hover:shadow-xl"
-              >
-                Get Digital Copy
-              </motion.button>
+             
             </motion.div>
           </div>
         </div>
