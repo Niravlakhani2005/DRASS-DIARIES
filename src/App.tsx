@@ -155,7 +155,7 @@ function App() {
                     <img src="/src/assets/1.png" alt="Book mockup 1" className="w-full rounded-2xl shadow-2xl" />
                   </div>
                   <div className="px-4">
-                    <img src="/src/assets/2.png" alt="Book mockup 2" className="w-full rounded-2xl shadow-2xl" />
+                    <img src="src/assets/2.png" alt="Book mockup 2" className="w-full rounded-2xl shadow-2xl" />
                   </div>
                   <div className="px-4">
                     <img src="/src/assets/3.png" alt="Book mockup 3" className="w-full rounded-2xl shadow-2xl" />
