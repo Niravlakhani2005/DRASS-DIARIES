@@ -210,7 +210,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
                   whileHover={{ scale: 1.05 }}
                   className="glass-effect p-4 rounded-xl"
                 >
-                  <p className="text-3xl sm:text-4xl font-bold gradient-text">2800k+</p>
+                  <p className="text-3xl sm:text-4xl font-bold gradient-text">2800+</p>
                   <p className="text-gray-400">YouTube Subscribers</p>
                 </motion.div>
                 <motion.div
@@ -239,7 +239,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
             transition={{ duration: 0.6 }}
             className="text-center max-w-3xl mx-auto mb-12 sm:mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6 text-shadow">HOW I WROTE <span className="gradient-text">DRASS DIARIES</span></h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6 text-shadow">Step Into the<span className="gradient-text"> Screen</span></h2>
           </motion.div>
           <motion.div 
             className="relative"
@@ -288,7 +288,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
               </div>
               <h3 className="text-2xl sm:text-3xl font-bold mb-4">Physical Copy</h3>
               <p className="text-gray-400 mb-8">Experience the journey through traditional pages</p>
-              <p className="text-4xl sm:text-5xl font-bold gradient-text mb-8">₹689</p>
+              <p className="text-4xl sm:text-5xl font-bold gradient-text mb-8">₹959</p>
               <ul className="text-gray-300 space-y-4 mb-8 sm:mb-12">
                 <li className="flex items-center gap-3">
                   <svg className="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
@@ -309,6 +309,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
                   Hardcover edition
                 </li>
               </ul>
+              <p className="text-gray-400 mb-6">(The physical copy is a bit costly because of higher printing and supply charges.)</p>
              
             </motion.div>
             
@@ -325,7 +326,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
               </div>
               <h3 className="text-2xl sm:text-3xl font-bold mb-4">E-Book</h3>
               <p className="text-gray-400 mb-8">Digital adventure at your fingertips</p>
-              <p className="text-4xl sm:text-5xl font-bold gradient-text mb-8">₹89</p>
+              <p className="text-4xl sm:text-5xl font-bold gradient-text mb-8">₹129</p>
               <ul className="text-gray-300 space-y-4 mb-8 sm:mb-12">
                 <li className="flex items-center gap-3">
                   <svg className="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
@@ -346,6 +347,7 @@ A life-changing opportunity to journey with Raunaq Bhai to the remote, frigid la
                   Read anywhere
                 </li>
               </ul>
+              <p className="text-gray-400 mb-8">(Preferred for desktop/laptop and tablet users.)</p>
              
             </motion.div>
           </div>
